@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Rotate Animations</title>
+    <style>
+        body {
+            background: #8AF3F9;
+            background-size: cover;
+        }
+        
+        .rotate_01 {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 -280px;
+            -webkit-transition: -webkit-transform 2s;
+        }
+        
+        .rotate_01:hover {
+            -webkit-transform: rotate(360deg) translateZ(0);
+        }
+        
+        .rotate_02 {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 -60px;
+        }
+        
+        .rotate_02:hover {
+            -webkit-animation: spin 2s linear infinite;
+            -moz-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        .rotate_03 {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 150px;
+            -webkit-animation: spin 2s linear infinite;
+            -moz-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @-moz-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <img class="rotate_01" src="../Images/settings-icon.png">
+    <img class="rotate_02" src="../Images/settings-icon.png">
+    <img class="rotate_03" src="../Images/settings-icon.png">
+
+</body>
+
+</html>

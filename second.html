@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap" rel="stylesheet">
+
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Second site</title>
+    <style>
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid red;
+            cursor: pointer;
+        }
+        
+        form .btn:hover {
+            background-color: gray;
+        }
+        
+        .navBar ul {
+            overflow: auto;
+            position: absolute;
+            display: inline-block;
+            height: 10%;
+        }
+        
+        .navBar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        
+        .navBar a:hover {
+            color: green;
+            background-color: black;
+        }
+        
+        .navBar li a {
+            padding: 3px 3px;
+            color: sandybrown;
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            background: url('../Images/back2.jfif');
+            background-size: 100%;
+        }
+        
+        .left {
+            display: inline-block;
+            width: 100px;
+            border: 2px solid red;
+            color: black;
+        }
+        
+        .left img {
+            width: 100px;
+        }
+        
+        .mid {
+            display: block;
+            width: 900px;
+            margin: auto;
+            border: 2px solid blue;
+        }
+        
+        .right {
+            position: absolute;
+            display: inline-block;
+            width: auto;
+            top: 10px;
+            right: 50px;
+            border: 2px solid green;
+        }
+    </style>
+</head>
+
+<body>
+    <header class="header">
+        <div class="left">
+            <img src="../Images/back.jpg" alt="Logo"> Nikunj
+        </div>
+        <div class="right">
+            <button class="btn">contact</button><button class="btn">email</button>
+        </div>
+
+        <nav class="navBar">
+            <div class="mid">
+                <ul>
+                    <li>
+                        <a href="https://www.google.com" target="_blank">home</a>
+                    </li>
+                    <li>
+                        <a href="# ">service</a>
+                    </li>
+                    <li>
+                        <a href="# ">about</a>
+                    </li>
+                    <li>
+                        <a href="# ">contact</a>
+                    </li>
+            </div>
+            </ul>
+        </nav>
+    </header>
+</body>
+
+</html>
