@@ -1,0 +1,1438 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheatSheats | Nikunj Jindal</title>
+    <!--Importing Fonts-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Potta+One&family=Roboto:wght@100&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="copy.png" type="image/x-icon">
+    <!--Importing Codes-->
+    <link rel="stylesheet" href="prism_cwh.css">
+    <script src="prism_cwh.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+</head>
+
+<!--------------------------"CSS Starts Here..."---------------------->
+
+<style>
+    #searchBar {
+        margin-left: 20px;
+        padding: 0px;
+    }
+    
+    .content {
+        padding-left: 20px !important;
+        padding-right: 10px;
+    }
+    
+    .container {
+        width: 65vw;
+        padding: 32px 0;
+        margin: auto;
+        font-family: 'Roboto', sans-serif;
+        font-weight: bold;
+    }
+    
+    .container pre {
+        height: 70vh;
+    }
+    
+    .container li b {
+        padding: 20px 0px;
+        display: block;
+        font-size: 25px;
+        font-family: 'Potta One', cursive;
+    }
+    
+    .container h1 {
+        text-align: center;
+        font-size: 50px;
+        font-family: 'Potta One', cursive;
+    }
+    
+    .hr {
+        margin: 40px 0px;
+    }
+    
+    #logo-img {
+        width: 40px;
+        height: 35px;
+    }
+    
+    #logo-img:hover {
+        width: 40px;
+        height: 35px;
+    }
+    
+    #html-hr {
+        margin-bottom: 40px !important;
+    }
+</style>
+
+<!--------------------------"Body Starts Here..."------------------------>
+
+<body>
+
+    <!--------------------------"NavBar Starts Here..."----------------------->
+
+    <nav class="navBar">
+        <div class="content">
+            <div class="logo">
+                <a href="#"><img src="copy.png" id="logo-img"></a>
+                <a href="#">CheatSheats</a>
+            </div>
+            <ul class="menu-list">
+                <div class="icon cancel-btn">
+                    <i class="fas fa-times"></i>
+                </div>
+                <li><a href="#html-hr">HTML</a></li>
+                <li><a href="#css-hr">CSS</a></li>
+                <li><a href="#java-hr">JavaScript</a></li>
+                <li><a href="#arduino-hr">Arduino</a></li>
+                <li><a href="#nodemcu-hr">NodeMCU</a></li>
+                <input type="text" id="searchBar" placeholder="Search Here...">
+            </ul>
+            <div class="icon menu-btn">
+                <i class="fas fa-bars"></i>
+            </div>
+        </div>
+    </nav>
+
+    <!--Background-->
+    <div class="banner"></div>
+    <hr class="hr-html" id="html-hr">
+
+    <!---------------------------"HTML Section Starts Here..."--------------------------->
+
+    <div class="container" id="html">
+        <h1>HTML</h1>
+        <ol>
+            <li><b>First HTML</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;PRACTICE SITE&lt;/title&gt;
+    &lt;style&gt;
+        details {
+            color: red;
+            background-color: yellow;
+        }
+        
+        .myClass {
+            color: blue;
+            background-color: seagreen;
+            border: 3px solid red;
+        }
+    &lt;/style&gt;
+
+    &lt;link rel="stylesheet" href="firstcss.css"&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;form action="Backend.php"&gt;
+        &lt;label for="myNumber"&gt;Age:&lt;/label&gt;
+        &lt;div&gt;
+            &lt;input type="number" name="myNumber" id="myNumber"&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            Password : &lt;input type="password " name="myPass " id="myPass "&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            Eail: &lt;input type="email " name="myEmail " id="myEmail "&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            Are you eligible: &lt;input type="checkbox " name="myEligibility " id="myEligibility "&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            Gender: Male: &lt;input type="radio " name="myGender " id="Male "&gt; Female: &lt;input type="radio " name="myGender " id="Male "&gt;
+        &lt;/div&gt;
+        &lt;div&gt;
+            &lt;input type="submit " value="mySubmit "&gt; &lt;input type="reset " value="myReset "&gt;
+        &lt;/div&gt;
+        &lt;a href="http://www.youtube.com " target="_blank"&gt; my youtube&lt;/a&gt;
+        &lt;label for=" myCar "&gt;Car: &lt;/label&gt;
+        &lt;select name="myCar " id="myCar "&gt;
+        &lt;option value="swift "&gt;swift&lt;/option&gt;    
+        &lt;option value="dzire "&gt;dzire&lt;/option&gt;    
+        &lt;/select&gt;
+    &lt;/form&gt;
+    &lt;details&gt;
+        &lt;summary&gt; nikunj&lt;/summary&gt;
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Culpa nulla facilis hic pariatur quos quam. Possimus labore odit dicta temporibus vitae nesciunt quidem aliquam architecto.
+    &lt;/details&gt;
+    &lt;p class="myClass"&gt;this is a simple paragraph&lt;/p&gt;
+    &lt;p&gt;this is a simple2 paragraph&lt;/p&gt;
+    &lt;p&gt;this is a simple3 paragraph&lt;/p&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </li>
+            <li><b>dfgfj HTML</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE HTML&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;Register Form&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;form&gt;
+    &lt;table&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Name :&lt;/td&gt;
+    &lt;td&gt;&lt;input type="text"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Password :&lt;/td&gt;
+    &lt;td&gt;&lt;input type="password"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Gender :&lt;/td&gt;
+    &lt;td&gt;
+        &lt;input type="radio" name="Gender"&gt; Male
+        &lt;input type="radio" name="Gender"&gt; Female
+    &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Email :&lt;/td&gt;
+    &lt;td&gt;&lt;input type="email"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;Phone no :&lt;/td&gt;
+    &lt;td&gt;
+        &lt;select&gt;
+        &lt;option&gt;977&lt;/option&gt;
+        &lt;option&gt;978&lt;/option&gt;
+        &lt;option&gt;979&lt;/option&gt;
+        &lt;option&gt;973&lt;/option&gt;
+        &lt;option&gt;972&lt;/option&gt;
+        &lt;option&gt;974&lt;/option&gt;
+        &lt;/select&gt;
+        &lt;input type="phone"&gt;
+    &lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+    &lt;td&gt;&lt;input type="submit" value="Submit"&gt;&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;/table&gt;
+    &lt;/form&gt;
+&lt;/body&gt;
+&lt;/html&gt;
+</code></pre>
+            </li>
+            <li><b>Animated Login Form</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en" dir="ltr"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="utf-8"&gt;
+    &lt;title&gt;َAnimated Login Form&lt;/title&gt;
+    &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"&gt;
+    &lt;link rel="icon" href="../Images/git.png"&gt;
+    &lt;style&gt;
+        body {
+            /*margin: 0;
+    padding: 0;*/
+            font-family: sans-serif;
+            background: #34495e;
+        }
+        
+        .box {
+            width: 400px;
+            padding: 40px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            background: #191919;
+            text-align: center;
+        }
+        
+        .box h1 {
+            color: white;
+            /*text-transform: uppercase;*/
+            font-weight: 500;
+        }
+        
+        .box input[type="text"],
+        .box input[type="password"] {
+            border: 0;
+            background: none;
+            display: block;
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #3498db;
+            padding: 14px 10px;
+            width: 200px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+        }
+        
+        .box input[type="text"]:focus,
+        .box input[type="password"]:focus {
+            width: 280px;
+            border-color: #2ecc71;
+        }
+        
+        .box input[type="submit"] {
+            /*border: 0;*/
+            background: none;
+            /*display: block;*/
+            margin: 20px auto;
+            text-align: center;
+            border: 2px solid #2ecc71;
+            padding: 14px 40px;
+            outline: none;
+            color: white;
+            border-radius: 24px;
+            transition: 0.25s;
+            cursor: pointer;
+        }
+        
+        .box input[type="submit"]:hover {
+            background: #2ecc71;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;div class="box" action="index.html" method="post"&gt;
+        &lt;h1&gt;LOGIN&lt;/h1&gt;
+        &lt;form method="POST" autocomplete="off" name="google-sheet"&gt;
+            &lt;input type="text" name="Name" placeholder="Your Name"&gt;
+            &lt;input type="text" name="Email" placeholder="Your Email"&gt;
+            &lt;input type="submit" name="Submit" value="Login"&gt;&lt;/a&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzfCiWNrKk7HTO0uzWz5KTSKRWttZI9LkJfaPHMgU5lALTVgKQ/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e =&gt; {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response =&gt; alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error =&gt; console.error('Error!', error.message))
+        })
+    &lt;/script&gt;
+
+    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>full HTML</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;link rel="icon" href="../Images/git.png"&gt;
+    &lt;style&gt;
+        body {
+            background: url("../Images/back.jpg") no-repeat center center/cover;
+            color: red;
+        }
+    &lt;/style&gt;
+    &lt;script&gt;
+        //let friends = ["niku", "ridhi", "harshit"];
+        //for (let index = 0; index &lt; friends.length; index++) {
+        //    console.log(friends[index]);
+        //}
+        ////let now = new Date();
+        //console.log(new Date());
+        let a = 1;
+        let b = 1000;
+        let r = a + (b - a) * Math.random();
+        console.log("The random no. is " + Math.round(r));
+    &lt;/script&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div&gt;
+        Nikunj Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut porro aliquid beatae vel. Nesciunt commodi iure aliquam voluptatum pariatur, at modi et laudantium labore repudiandae tempora ipsam! Quidem, natus vero. Lorem ipsum dolor sit amet consectetur
+        adipisicing elit. Laborum obcaecati maiores illum tenetur non quo minus iure mollitia accusamus facilis.
+    &lt;/div&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>google new HTML</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+    &lt;link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css"&gt;
+    &lt;link rel="icon" href="../Images\git.png"&gt;
+    &lt;style&gt;
+        .register .nav-tabs .nav-link:hover {
+            border: none;
+        }
+        
+        .text-align {
+            margin-top: -3%;
+            margin-bottom: -9%;
+            padding: 10%;
+            margin-left: 30%;
+        }
+        
+        .form-new {
+            margin-right: 22%;
+            margin-left: 20%;
+        }
+        
+        .form-control:focus {
+            border: 2px solid black;
+        }
+        
+        .register-heading {
+            margin-left: 21%;
+            margin-bottom: 10%;
+            color: #e9ecef;
+        }
+        
+        .register-heading h1 {
+            margin-left: 21%;
+            margin-bottom: 10%;
+            color: #e9ecef;
+        }
+        
+        .register {
+            background: -webkit-linear-gradient(left, #055a4f, #00c6ff);
+            margin-top: 3%;
+            padding: 3%;
+            border-radius: 2.5rem;
+        }
+        
+        .btnSubmit {
+            width: 50%;
+            border-radius: 1rem;
+            padding: 1.5%;
+            color: #fff;
+            background-color: #03612e;
+            border: none;
+            cursor: pointer;
+            margin-right: 6%;
+            color: rgb(246, 246, 252);
+            margin-top: 4%;
+        }
+        
+        .btnSubmit:hover {
+            background: rgb(46, 219, 104);
+            text-decoration: underline;
+            color: black;
+        }
+    &lt;/style&gt;
+
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;div class="container register"&gt;
+        &lt;div class="row"&gt;
+            &lt;div class="col-md-12"&gt;
+                &lt;div class="tab-pane fade show active text-align form-new" id="home" role="tabpanel" aria-labelledby="home-tab"&gt;
+                    &lt;h3 class="register-heading"&gt;Connect Google Spreadsheet to HTML&lt;/h3&gt;
+                    &lt;div class="row register-form"&gt;
+                        &lt;div class="col-md-12"&gt;
+                            &lt;form method="post" autocomplete="off" name="google-sheet"&gt;
+                                &lt;div class="form-group"&gt;
+                                    &lt;input type="text" name="Name" class="form-control" placeholder="Your Name" value="" required="" /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="form-group"&gt;
+                                    &lt;input type="email" name="Email" class="form-control" placeholder="Your Email" value="" required="" /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="form-group"&gt;
+                                    &lt;input type="tel" name="Phone" class="form-control" placeholder="Your Contact Number" value="" required="" /&gt;
+                                &lt;/div&gt;
+                                &lt;div class="form-group"&gt;
+                                    &lt;input type="submit" name="submit" class="btnSubmit btn-block" value="Login" /&gt;
+                                &lt;/div&gt;
+                            &lt;/form&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;script&gt;
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbzfCiWNrKk7HTO0uzWz5KTSKRWttZI9LkJfaPHMgU5lALTVgKQ/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e =&gt; {
+            e.preventDefault()
+            fetch(scriptURL, {
+                    method: 'POST',
+                    body: new FormData(form)
+                })
+                .then(response =&gt; alert("Thanks for Contacting us..! We Will Contact You Soon..."))
+                .catch(error =&gt; console.error('Error!', error.message))
+        })
+    &lt;/script&gt;
+
+    &lt;script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"&gt;&lt;/script&gt;
+    &lt;script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"&gt;&lt;/script&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>infinite html</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+
+&lt;head&gt;
+    &lt;title&gt;Rotate Animations&lt;/title&gt;
+    &lt;style&gt;
+        body {
+            background: #8AF3F9;
+            background-size: cover;
+        }
+        
+        .rotate_01 {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 -280px;
+            -webkit-transition: -webkit-transform 2s;
+        }
+        
+        .rotate_01:hover {
+            -webkit-transform: rotate(360deg) translateZ(0);
+        }
+        
+        .rotate_02 {
+            display: block;
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 -60px;
+        }
+        
+        .rotate_02:hover {
+            -webkit-animation: spin 2s linear infinite;
+            -moz-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        .rotate_03 {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 150px;
+            height: 150px;
+            margin: -60px 0 0 150px;
+            -webkit-animation: spin 2s linear infinite;
+            -moz-animation: spin 2s linear infinite;
+            animation: spin 2s linear infinite;
+        }
+        
+        @-webkit-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @-moz-keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+        
+        @keyframes spin {
+            100% {
+                -webkit-transform: rotate(360deg);
+            }
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+
+    &lt;img class="rotate_01" src="../Images/settings-icon.png"&gt;
+    &lt;img class="rotate_02" src="../Images/settings-icon.png"&gt;
+    &lt;img class="rotate_03" src="../Images/settings-icon.png"&gt;
+
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>second html</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai&display=swap" rel="stylesheet"&gt;
+
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Second site&lt;/title&gt;
+    &lt;style&gt;
+        .btn {
+            margin: 0px 9px;
+            color: white;
+            background-color: black;
+            padding: 3px 4px;
+            border: 2px solid red;
+            cursor: pointer;
+        }
+        
+        form .btn:hover {
+            background-color: gray;
+        }
+        
+        .navBar ul {
+            overflow: auto;
+            position: absolute;
+            display: inline-block;
+            height: 10%;
+        }
+        
+        .navBar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+        }
+        
+        .navBar a:hover {
+            color: green;
+            background-color: black;
+        }
+        
+        .navBar li a {
+            padding: 3px 3px;
+            color: sandybrown;
+            text-decoration: none;
+        }
+        
+        body {
+            font-family: 'Baloo Bhai', cursive;
+            background: url('../Images/back2.jfif');
+            background-size: 100%;
+        }
+        
+        .left {
+            display: inline-block;
+            width: 100px;
+            border: 2px solid red;
+            color: black;
+        }
+        
+        .left img {
+            width: 100px;
+        }
+        
+        .mid {
+            display: block;
+            width: 900px;
+            margin: auto;
+            border: 2px solid blue;
+        }
+        
+        .right {
+            position: absolute;
+            display: inline-block;
+            width: auto;
+            top: 10px;
+            right: 50px;
+            border: 2px solid green;
+        }
+    &lt;/style&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;header class="header"&gt;
+        &lt;div class="left"&gt;
+            &lt;img src="../Images/back.jpg" alt="Logo"&gt; Nikunj
+        &lt;/div&gt;
+        &lt;div class="right"&gt;
+            &lt;button class="btn"&gt;contact&lt;/button&gt;&lt;button class="btn"&gt;email&lt;/button&gt;
+        &lt;/div&gt;
+
+        &lt;nav class="navBar"&gt;
+            &lt;div class="mid"&gt;
+                &lt;ul&gt;
+                    &lt;li&gt;
+                        &lt;a href="https://www.google.com" target="_blank"&gt;home&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;a href="# "&gt;service&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;a href="# "&gt;about&lt;/a&gt;
+                    &lt;/li&gt;
+                    &lt;li&gt;
+                        &lt;a href="# "&gt;contact&lt;/a&gt;
+                    &lt;/li&gt;
+            &lt;/div&gt;
+            &lt;/ul&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>resp_cont_form html</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Responsive Form&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;body&gt;
+    &lt;div class="container"&gt;
+        &lt;div class="text"&gt;
+            Resposive Contact Us Form
+        &lt;/div&gt;
+        &lt;form action="#"&gt;
+            &lt;div class="form-row"&gt;
+                &lt;div class="input-data"&gt;
+                    &lt;input type="text"&gt;
+                    &lt;label&gt;First Name&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-data"&gt;
+                    &lt;input type="text"&gt;
+                    &lt;label&gt;Last Name&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="form-row"&gt;
+                &lt;div class="input-data"&gt;
+                    &lt;input type="text"&gt;
+                    &lt;label&gt;E-Mail&lt;/label&gt;
+                &lt;/div&gt;
+                &lt;div class="input-data"&gt;
+                    &lt;input type="text"&gt;
+                    &lt;label&gt;WebSite&lt;/label&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="form-row"&gt;
+                &lt;div class="input-data textarea"&gt;
+                    &lt;textarea rows="10" cols="30"&gt;&lt;/textarea&gt;
+                    &lt;br&gt;
+                    &lt;label&gt;Type your message here...&lt;/label&gt;
+                    &lt;br&gt;
+                    &lt;div class="form-row submit-btn"&gt;
+                        &lt;div class="input-data"&gt;
+                            &lt;div class="inner"&gt;
+                                &lt;input type="submit" value="Submit"&gt;
+                            &lt;/div&gt;
+                        &lt;/div&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/form&gt;
+    &lt;/div&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>tailcopy html</b>
+                <pre class="language-html"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta http-equiv="X-UA-Compatible" content="IE=edge"&gt;
+    &lt;link rel="preconnect" href="https://fonts.gstatic.com"&gt;
+    &lt;link href="https://fonts.googleapis.com/css2?family=Baloo+Bhai+2&display=swap" rel="stylesheet"&gt;
+    &lt;link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet"&gt;
+    &lt;link rel="icon" href="../Images/git.png"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;tailwind copy&lt;/title&gt;
+&lt;/head&gt;
+
+&lt;style&gt;
+        :root {
+        font-family: 'Baloo Bhai 2', cursive;
+    }
+    /*-----------------------------header--------------------------------------*/
+    
+    #header {
+        /*background: rgb(146, 146, 146);*/
+        /*position: fixed;*/
+        width: 100%;
+    }
+    
+    #navBar ul {
+        /*overflow: auto;*/
+        display: flex;
+        flex-wrap: wrap;
+    }
+    
+    #navBar ul img {
+        width: 70px;
+        height: 55px;
+        padding-top: 20px;
+        padding-left: 20px;
+    }
+    
+    #navBar ul li {
+        padding: 5px 20px;
+        margin: 10px 40px;
+        border: 2px solid black;
+        border-radius: 25px;
+        background: white;
+    }
+    
+    #navBar ul li:hover {
+        padding: 5px 20px;
+        margin: 10px 40px;
+        border: 2px solid white;
+        border-radius: 25px;
+        cursor: pointer;
+        background: black;
+        text-decoration: underline;
+        color: white;
+    }
+    
+    nav button {
+        float: right;
+        padding: 7px 40px;
+        margin: 12px 110px;
+        border: 2px solid black;
+        border-radius: 25px;
+        background: white;
+    }
+    
+    nav button:hover {
+        float: right;
+        padding: 7px 40px;
+        margin: 12px 110px;
+        border: 2px solid white;
+        color: white;
+        background: rgb(50, 40, 40);
+    }
+    /*------------------------home----------------------------------------*/
+    
+    .home_container {
+        border: 3px solid red;
+    }
+    
+    #home button {
+        border: 3px solid green;
+    }
+    
+    #home {
+        border: 3px solid orange;
+        margin-top: 70px;
+        display: flex;
+        flex-direction: row;
+    }
+    
+    #home img {
+        float: right;
+        display: block;
+        height: auto;
+        max-width: 100%;
+    }
+&lt;/style&gt;
+
+&lt;body&gt;
+
+    &lt;!-----------------------------------------------header---------------------------------&gt;
+
+
+    &lt;header id="header"&gt;
+        &lt;nav id="navBar"&gt;
+            &lt;ul&gt;
+                &lt;img src="../Images/git.png" alt="logo"&gt;
+                &lt;li&gt;&lt;a class="item1" href="#home"&gt;Home&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class="item2" href="#statistics"&gt;Statistics&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class="item3" href="#steps"&gt;Steps&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class="item4" href="#contact"&gt;Contact&lt;/a&gt;&lt;/li&gt;
+                &lt;li&gt;&lt;a class="item5" href="#other"&gt;Other&lt;/a&gt;&lt;/li&gt;
+                &lt;div&gt;&lt;button id="btn1"&gt;Enroll&lt;/button&gt;&lt;/div&gt;
+            &lt;/ul&gt;
+            &lt;hr&gt;
+        &lt;/nav&gt;
+    &lt;/header&gt;
+
+
+    &lt;!------------------------------Home--------------------------------&gt;
+
+
+    &lt;hr&gt;
+    &lt;section id="home"&gt;
+        &lt;div class="home_container"&gt;
+            &lt;h1&gt;Before they sold out readymade gluten&lt;/h1&gt;
+            &lt;p&gt;Copper mug try-hard pitchfork pour-over freegan heirloom neutra air plant cold-pressed tacos poke beard tote bag. Heirloom echo park mlkshk tote bag selvage hot chicken authentic tumeric truffaut hexagon try-hard chambray.&lt;/p&gt;
+            &lt;div&gt;
+                &lt;button&gt;Button&lt;/button&gt;
+                &lt;button&gt;Button&lt;/button&gt;
+            &lt;/div&gt;
+            &lt;img src="https://source.unsplash.com/720x600/?junkfood "&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+
+    &lt;!------------------------------statistics--------------------&gt;
+
+
+    &lt;hr&gt;
+    &lt;section class="text-gray-600 body-font "&gt;
+        &lt;div class="container px-5 py-24 mx-auto "&gt;
+            &lt;div class="flex flex-col text-center w-full mb-20 "&gt;
+                &lt;h1 class="sm:text-3xl text-2xl font-medium title-font mb-4 text-gray-900 "&gt;Master Cleanse Reliac Heirloom
+                &lt;/h1&gt;
+                &lt;p class="lg:w-2/3 mx-auto leading-relaxed text-base "&gt;Whatever cardigan tote bag tumblr hexagon brooklyn asymmetrical gentrify, subway tile poke farm-to-table. Franzen you probably haven't heard of them man bun deep jianbing selfies heirloom prism food truck ugh squid celiac humblebrag.&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="flex flex-wrap -m-4 text-center "&gt;
+                &lt;div class="p-4 md:w-1/4 sm:w-1/2 w-full "&gt;
+                    &lt;div class="border-2 border-gray-200 px-4 py-6 rounded-lg "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="text-indigo-500 w-12 h-12 mb-3 inline-block " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M8 17l4 4 4-4m-4-5v9 "&gt;&lt;/path&gt;
+                            &lt;path d="M20.88 18.09A5 5 0 0018 9h-1.26A8 8 0 103 16.29 "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                        &lt;h2 class="title-font font-medium text-3xl text-gray-900 "&gt;2.7K&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;Downloads&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="p-4 md:w-1/4 sm:w-1/2 w-full "&gt;
+                    &lt;div class="border-2 border-gray-200 px-4 py-6 rounded-lg "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="text-indigo-500 w-12 h-12 mb-3 inline-block " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M17 21v-2a4 4 0 00-4-4H5a4 4 0 00-4 4v2 "&gt;&lt;/path&gt;
+                            &lt;circle cx="9 " cy="7 " r="4 "&gt;&lt;/circle&gt;
+                            &lt;path d="M23 21v-2a4 4 0 00-3-3.87m-4-12a4 4 0 010 7.75 "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                        &lt;h2 class="title-font font-medium text-3xl text-gray-900 "&gt;1.3K&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;Users&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="p-4 md:w-1/4 sm:w-1/2 w-full "&gt;
+                    &lt;div class="border-2 border-gray-200 px-4 py-6 rounded-lg "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="text-indigo-500 w-12 h-12 mb-3 inline-block " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M3 18v-6a9 9 0 0118 0v6 "&gt;&lt;/path&gt;
+                            &lt;path
+                                d="M21 19a2 2 0 01-2 2h-1a2 2 0 01-2-2v-3a2 2 0 012-2h3zM3 19a2 2 0 002 2h1a2 2 0 002-2v-3a2 2 0 00-2-2H3z "&gt;
+                            &lt;/path&gt;
+                        &lt;/svg&gt;
+                        &lt;h2 class="title-font font-medium text-3xl text-gray-900 "&gt;74&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;Files&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="p-4 md:w-1/4 sm:w-1/2 w-full "&gt;
+                    &lt;div class="border-2 border-gray-200 px-4 py-6 rounded-lg "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="text-indigo-500 w-12 h-12 mb-3 inline-block " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                        &lt;h2 class="title-font font-medium text-3xl text-gray-900 "&gt;46&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;Places&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+
+    &lt;!------------------------------------steps------------------------------------------&gt;
+
+
+    &lt;hr&gt;
+    &lt;section class="text-gray-600 body-font "&gt;
+        &lt;div class="container px-5 py-24 mx-auto flex flex-wrap "&gt;
+            &lt;div class="flex relative pt-10 pb-20 sm:items-center md:w-2/3 mx-auto "&gt;
+                &lt;div class="h-full w-6 absolute inset-0 flex items-center justify-center "&gt;
+                    &lt;div class="h-full w-1 bg-gray-200 pointer-events-none "&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm "&gt;
+                    1&lt;/div&gt;
+                &lt;div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row "&gt;
+                    &lt;div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="w-12 h-12 " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/div&gt;
+                    &lt;div class="flex-grow sm:pl-6 mt-6 sm:mt-0 "&gt;
+                        &lt;h2 class="font-medium title-font text-gray-900 mb-1 text-xl "&gt;Shooting Stars&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto "&gt;
+                &lt;div class="h-full w-6 absolute inset-0 flex items-center justify-center "&gt;
+                    &lt;div class="h-full w-1 bg-gray-200 pointer-events-none "&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm "&gt;
+                    2&lt;/div&gt;
+                &lt;div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row "&gt;
+                    &lt;div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="w-12 h-12 " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M22 12h-4l-3 9L9 3l-3 9H2 "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/div&gt;
+                    &lt;div class="flex-grow sm:pl-6 mt-6 sm:mt-0 "&gt;
+                        &lt;h2 class="font-medium title-font text-gray-900 mb-1 text-xl "&gt;The Catalyzer&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="flex relative pb-20 sm:items-center md:w-2/3 mx-auto "&gt;
+                &lt;div class="h-full w-6 absolute inset-0 flex items-center justify-center "&gt;
+                    &lt;div class="h-full w-1 bg-gray-200 pointer-events-none "&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm "&gt;
+                    3&lt;/div&gt;
+                &lt;div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row "&gt;
+                    &lt;div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="w-12 h-12 " viewBox="0 0 24 24 "&gt;
+                            &lt;circle cx="12 " cy="5 " r="3 "&gt;&lt;/circle&gt;
+                            &lt;path d="M12 22V8M5 12H2a10 10 0 0020 0h-3 "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/div&gt;
+                    &lt;div class="flex-grow sm:pl-6 mt-6 sm:mt-0 "&gt;
+                        &lt;h2 class="font-medium title-font text-gray-900 mb-1 text-xl "&gt;The 400 Blows&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="flex relative pb-10 sm:items-center md:w-2/3 mx-auto "&gt;
+                &lt;div class="h-full w-6 absolute inset-0 flex items-center justify-center "&gt;
+                    &lt;div class="h-full w-1 bg-gray-200 pointer-events-none "&gt;&lt;/div&gt;
+                &lt;/div&gt;
+                &lt;div class="flex-shrink-0 w-6 h-6 rounded-full mt-10 sm:mt-0 inline-flex items-center justify-center bg-indigo-500 text-white relative z-10 title-font font-medium text-sm "&gt;
+                    4&lt;/div&gt;
+                &lt;div class="flex-grow md:pl-8 pl-6 flex sm:items-center items-start flex-col sm:flex-row "&gt;
+                    &lt;div class="flex-shrink-0 w-24 h-24 bg-indigo-100 text-indigo-500 rounded-full inline-flex items-center justify-center "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="w-12 h-12 " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M20 21v-2a4 4 0 00-4-4H8a4 4 0 00-4 4v2 "&gt;&lt;/path&gt;
+                            &lt;circle cx="12 " cy="7 " r="4 "&gt;&lt;/circle&gt;
+                        &lt;/svg&gt;
+                    &lt;/div&gt;
+                    &lt;div class="flex-grow sm:pl-6 mt-6 sm:mt-0 "&gt;
+                        &lt;h2 class="font-medium title-font text-gray-900 mb-1 text-xl "&gt;Neptune&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;VHS cornhole pop-up, try-hard 8-bit iceland helvetica. Kinfolk bespoke try-hard cliche palo santo offal.&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+
+    &lt;!--------------------------------------contact------------------------------------------&gt;
+
+
+    &lt;hr&gt;
+    &lt;section class="text-gray-600 body-font relative " id="contact"&gt;
+        &lt;div class="container px-5 py-24 mx-auto flex sm:flex-nowrap flex-wrap "&gt;
+            &lt;div class="lg:w-2/3 md:w-1/2 bg-gray-300 rounded-lg overflow-hidden sm:mr-10 p-10 flex items-end justify-start relative "&gt;
+                &lt;iframe width="100% " height="100% " class="absolute inset-0 " frameborder="0 " title="map " marginheight="0 " marginwidth="0 " scrolling="no " src="https://maps.google.com/maps?width=100%&height=600&hl=en&q=%C4%B0zmir+(My%20Business%20Name)&ie=UTF8&t=&z=14&iwloc=B&output=embed "
+                    style="filter: grayscale(1) contrast(1.2) opacity(0.4); "&gt;&lt;/iframe&gt;
+                &lt;div class="bg-white relative flex flex-wrap py-6 rounded shadow-md "&gt;
+                    &lt;div class="lg:w-1/2 px-6 "&gt;
+                        &lt;h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs "&gt;ADDRESS&lt;/h2&gt;
+                        &lt;p class="mt-1 "&gt;Photo booth tattooed prism, portland taiyaki hoodie neutra typewriter&lt;/p&gt;
+                    &lt;/div&gt;
+                    &lt;div class="lg:w-1/2 px-6 mt-4 lg:mt-0 "&gt;
+                        &lt;h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs "&gt;EMAIL&lt;/h2&gt;
+                        &lt;a class="text-indigo-500 leading-relaxed "&gt;example@email.com&lt;/a&gt;
+                        &lt;h2 class="title-font font-semibold text-gray-900 tracking-widest text-xs mt-4 "&gt;PHONE&lt;/h2&gt;
+                        &lt;p class="leading-relaxed "&gt;123-456-7890&lt;/p&gt;
+                    &lt;/div&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+            &lt;div class="lg:w-1/3 md:w-1/2 bg-white flex flex-col md:ml-auto w-full md:py-8 mt-8 md:mt-0 "&gt;
+                &lt;h2 class="text-gray-900 text-lg mb-1 font-medium title-font "&gt;Feedback&lt;/h2&gt;
+                &lt;p class="leading-relaxed mb-5 text-gray-600 "&gt;Post-ironic portland shabby chic echo park, banjo fashion axe
+                &lt;/p&gt;
+                &lt;div class="relative mb-4 "&gt;
+                    &lt;label for="name " class="leading-7 text-sm text-gray-600 "&gt;Name&lt;/label&gt;
+                    &lt;input type="text " id="name " name="name " class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors
+                duration-200 ease-in-out "&gt;
+                &lt;/div&gt;
+                &lt;div class="relative mb-4 "&gt;
+                    &lt;label for="email " class="leading-7 text-sm text-gray-600 "&gt;Email&lt;/label&gt;
+                    &lt;input type="email " id="email " name="email " class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 text-base outline-none text-gray-700 py-1 px-3 leading-8 transition-colors
+                duration-200 ease-in-out "&gt;
+                &lt;/div&gt;
+                &lt;div class="relative mb-4 "&gt;
+                    &lt;label for="message " class="leading-7 text-sm text-gray-600 "&gt;Message&lt;/label&gt;
+                    &lt;textarea id="message " name="message " class="w-full bg-white rounded border border-gray-300 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-200 h-32 text-base outline-none text-gray-700 py-1 px-3 resize-none leading-6 transition-colors
+                duration-200 ease-in-out "&gt;&lt;/textarea&gt;
+                &lt;/div&gt;
+                &lt;button class="text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg "&gt;Button&lt;/button&gt;
+                &lt;p class="text-xs text-gray-500 mt-3 "&gt;Chicharrones blog helvetica normcore iceland tousled brook viral artisan.
+                &lt;/p&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/section&gt;
+
+
+    &lt;!-----------------------------------&lt;footer&gt;----------------------------------------&gt;
+
+
+    &lt;hr&gt;
+    &lt;footer class="text-gray-600 body-font "&gt;
+        &lt;div class="container px-5 py-24 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col "&gt;
+            &lt;div class="w-64 flex-shrink-0 md:mx-0 mx-auto text-center md:text-left md:mt-0 mt-10 "&gt;
+                &lt;a class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900 "&gt;
+                    &lt;svg xmlns="http://www.w3.org/2000/svg " fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 " class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full " viewBox="0 0 24 24 "&gt;
+                        &lt;path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5 "&gt;&lt;/path&gt;
+                    &lt;/svg&gt;
+                    &lt;span class="ml-3 text-xl "&gt;Tailblocks&lt;/span&gt;
+                &lt;/a&gt;
+                &lt;p class="mt-2 text-sm text-gray-500 "&gt;Air plant banjo lyft occupy retro adaptogen indego&lt;/p&gt;
+            &lt;/div&gt;
+            &lt;div class="flex-grow flex flex-wrap md:pr-20 -mb-10 md:text-left text-center order-first "&gt;
+                &lt;div class="lg:w-1/4 md:w-1/2 w-full px-4 "&gt;
+                    &lt;h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 "&gt;CATEGORIES&lt;/h2&gt;
+                    &lt;nav class="list-none mb-10 "&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;First Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Second Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Third Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Fourth Link&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+                &lt;div class="lg:w-1/4 md:w-1/2 w-full px-4 "&gt;
+                    &lt;h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 "&gt;CATEGORIES&lt;/h2&gt;
+                    &lt;nav class="list-none mb-10 "&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;First Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Second Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Third Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Fourth Link&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+                &lt;div class="lg:w-1/4 md:w-1/2 w-full px-4 "&gt;
+                    &lt;h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 "&gt;CATEGORIES&lt;/h2&gt;
+                    &lt;nav class="list-none mb-10 "&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;First Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Second Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Third Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Fourth Link&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+                &lt;div class="lg:w-1/4 md:w-1/2 w-full px-4 "&gt;
+                    &lt;h2 class="title-font font-medium text-gray-900 tracking-widest text-sm mb-3 "&gt;CATEGORIES&lt;/h2&gt;
+                    &lt;nav class="list-none mb-10 "&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;First Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Second Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Third Link&lt;/a&gt;
+                        &lt;/li&gt;
+                        &lt;li&gt;
+                            &lt;a class="text-gray-600 hover:text-gray-800 "&gt;Fourth Link&lt;/a&gt;
+                        &lt;/li&gt;
+                    &lt;/nav&gt;
+                &lt;/div&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+        &lt;div class="bg-gray-100 "&gt;
+            &lt;div class="container mx-auto py-4 px-5 flex flex-wrap flex-col sm:flex-row "&gt;
+                &lt;p class="text-gray-500 text-sm text-center sm:text-left "&gt;© 2020 Tailblocks —
+                    &lt;a href="https://twitter.com/knyttneve " rel="noopener noreferrer " class="text-gray-600 ml-1 " target="_blank "&gt;@knyttneve&lt;/a&gt;
+                &lt;/p&gt;
+                &lt;span class="inline-flex sm:ml-auto sm:mt-0 mt-2 justify-center sm:justify-start "&gt;
+                    &lt;a class="text-gray-500 "&gt;
+                        &lt;svg fill="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 "
+                            class="w-5 h-5 " viewBox="0 0 24 24 "&gt;
+                            &lt;path d="M18 2h-3a5 5 0 00-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 011-1h3z "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/a&gt;
+                    &lt;a class="ml-3 text-gray-500 "&gt;
+                        &lt;svg fill="currentColor " stroke-linecap="round " stroke-linejoin="round " stroke-width="2 "
+                            class="w-5 h-5 " viewBox="0 0 24 24 "&gt;
+                            &lt;path
+                                d="M23 3a10.9 10.9 0 01-3.14 1.53 4.48 4.48 0 00-7.86 3v1A10.66 10.66 0 013 4s-4 9 5 13a11.64 11.64 0 01-7 2c9 5 20 0 20-11.5a4.5 4.5 0 00-.08-.83A7.72 7.72 0 0023 3z "&gt;
+                            &lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/a&gt;
+                    &lt;a class="ml-3 text-gray-500 "&gt;
+                        &lt;svg fill="none " stroke="currentColor " stroke-linecap="round " stroke-linejoin="round "
+                            stroke-width="2 " class="w-5 h-5 " viewBox="0 0 24 24 "&gt;
+                            &lt;rect width="20 " height="20 " x="2 " y="2 " rx="5 " ry="5 "&gt;&lt;/rect&gt;
+                            &lt;path d="M16 11.37A4 4 0 1112.63 8 4 4 0 0116 11.37zm1.5-4.87h.01 "&gt;&lt;/path&gt;
+                        &lt;/svg&gt;
+                    &lt;/a&gt;
+                    &lt;a class="ml-3 text-gray-500 "&gt;
+                        &lt;svg fill="currentColor " stroke="currentColor " stroke-linecap="round "
+                            stroke-linejoin="round " stroke-width="0 " class="w-5 h-5 " viewBox="0 0 24 24 "&gt;
+                            &lt;path stroke="none "
+                                d="M16 8a6 6 0 016 6v7h-4v-7a2 2 0 00-2-2 2 2 0 00-2 2v7h-4v-7a6 6 0 016-6zM2 9h4v12H2z "&gt;
+                            &lt;/path&gt;
+                            &lt;circle cx="4 " cy="4 " r="2 " stroke="none "&gt;&lt;/circle&gt;
+                        &lt;/svg&gt;
+                    &lt;/a&gt;
+                &lt;/span&gt;
+            &lt;/div&gt;
+        &lt;/div&gt;
+    &lt;/footer&gt;
+&lt;/body&gt;
+
+&lt;/html&gt;</code></pre>
+            </li>
+            <li><b>tailwind html</b>
+                <pre class="language-html"><code></code></pre>
+            </li>
+            <li><b>OL</b>
+                <pre class="language-html"><code>ol </code></pre>
+            </li>
+            <li><b>OL</b>
+                <pre class="language-html"><code>ol </code></pre>
+            </li>
+        </ol>
+    </div>
+    <hr class="hr" id="css-hr">
+
+    <!--------------------------"CSS Section Starts Here..."----------------------------->
+
+    <div class="container" id="css">
+        <h1>CSS</h1>
+        <ol>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-css"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+            <li><b>OL Tag: This is the basic ordered list</b>
+                <pre class="language-css"><code>ol </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-css"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-css"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-css"><code>var i = 45; </code></pre>
+            </li>
+        </ol>
+    </div>
+    <hr class="hr" id="java-hr">
+
+    <!--------------------------"Java Section Starts Here..."----------------------------->
+
+    <div class="container" id="java">
+        <h1>Java</h1>
+        <ol>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-js"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+            <li><b>OL Tag: This is the basic ordered list</b>
+                <pre class="language-js"><code>ol </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-js"><code>var i = 45; </code></pre>
+            </li>
+        </ol>
+    </div>
+    <hr class="hr" id="arduino-hr">
+
+    <!--------------------------"Arduino Section Starts Here..."----------------------------->
+
+    <div class="container" id="arduino">
+        <h1>Arduino</h1>
+        <ol>
+            <li><b>NRF24L01 Receiver</b>
+                <pre class="language-arduino"><code>#include &lt;SPI.h&gt;
+#include &lt;nRF24L01.h&gt;
+#include &lt;RF24.h&gt;
+                        
+const byte pipeIn[6] = "12345";
+RF24 radio(9, 10);
+void setup()
+{
+radio.begin();
+radio.openReadingPipe(0, pipeIn);
+//  radio.setAutoAck(false);
+//  radio.setDataRate(RF24_250KBPS);
+radio.setPALevel(RF24_PA_MIN);
+radio.startListening(); //start the radio comunication for receiver
+Serial.begin(9600);
+}
+unsigned long lastRecvTime = 0;
+void loop()
+{ 
+radio.startListening();
+delay(30);
+int a;
+radio.read(&a, sizeof(a));
+//  Serial.print(" ");
+Serial.println(a);
+radio.stopListening();
+delay(30);
+}</code></pre>
+            </li>
+            <li><b>NRF24L01 transmitter</b>
+                <pre class="language-arduino"><code>#include &lt;SPI.h&gt;
+#include &lt;nRF24L01.h&gt;
+#include &lt;RF24.h&gt;
+
+RF24 radio(9, 10);
+
+const byte rxAddr[6] = "12345";
+
+void setup()
+{
+    radio.begin();
+    radio.openWritingPipe(rxAddr);
+//  radio.setAutoAck(false);
+//  radio.setDataRate(RF24_250KBPS);
+    radio.setPALevel(RF24_PA_MIN);
+    radio.stopListening();
+    Serial.begin(9600);
+}
+
+void loop()
+{
+//  radio.stopListening();
+//  delay(50);
+    int a = 5;
+    bool b = radio.write(&a, sizeof(a));
+//  Serial.println(b);
+//  radio.startListening();
+//  delay(50);
+}</code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+        </ol>
+    </div>
+    <hr class="hr" id="nodemcu-hr">
+
+    <!--------------------------"NodeMCU Section Starts Here..."----------------------------->
+
+    <div class="container" id="nodemcu">
+        <h1>NodeMCU</h1>
+        <ol>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>&lt;!DOCTYPE html&gt;
+&lt;html lang="en"&gt;
+&lt;head&gt;
+    &lt;meta charset="UTF-8"&gt;
+    &lt;meta name="viewport" content="width=device-width, initial-scale=1.0"&gt;
+    &lt;title&gt;Document&lt;/title&gt;
+&lt;/head&gt;
+&lt;body&gt;
+   
+&lt;/body&gt;
+&lt;/html&gt; </code></pre>
+            </li>
+            <li><b>OL Tag: This is the basic ordered list</b>
+                <pre class="language-arduino"><code>ol </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+            <li><b>HTML Boilerplate: This is the basic html boilerplate code</b>
+                <pre class="language-arduino"><code>var i = 45; </code></pre>
+            </li>
+        </ol>
+    </div>
+
+    <!--------------------------"JavaScript Starts Here..."----------------------------->
+
+    <script>
+        const body = document.querySelector("body");
+        const navBar = document.querySelector(".navBar");
+        const menuBtn = document.querySelector(".menu-btn");
+        const cancelBtn = document.querySelector(".cancel-btn");
+        menuBtn.onclick = () => {
+            navBar.classList.add("show");
+            menuBtn.classList.add("hide");
+            body.classList.add("disabled");
+        }
+        cancelBtn.onclick = () => {
+            body.classList.remove("disabled");
+            navBar.classList.remove("show");
+            menuBtn.classList.remove("hide");
+        }
+        window.onscroll = () => {
+            this.scrollY > 20 ? navBar.classList.add("sticky") : navBar.classList.remove("sticky");
+        }
+    </script>
+
+</body>
+
+</html>
